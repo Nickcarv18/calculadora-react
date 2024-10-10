@@ -17,7 +17,7 @@ Este projeto é uma calculadora básica desenvolvida utilizando a biblioteca Rea
 
 ## 📥 Instalação
 
-1. Clone o repositório: `git clone <url_do_repositorio>`
+1. Clone o repositório: `git clone https://github.com/Nickcarv18/calculadora-react.git`
 2. Acesse a pasta do projeto: `cd calculadora-react`
 3. Instale as dependências: `npm install`
 
