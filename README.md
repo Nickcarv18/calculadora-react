@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Calculadora React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📃 Descrição
 
-## Available Scripts
+Este projeto é uma calculadora básica desenvolvida utilizando a biblioteca React.js. Ela permite realizar operações matemáticas simples, como adição, subtração, multiplicação, divisão e cálculo de porcentagem.
 
-In the project directory, you can run:
+## 🚀 Tecnologias Utilizadas
 
-### `npm start`
+- **React.js**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **HTML**: Linguagem de marcação para estruturação do conteúdo.
+- **CSS**: Linguagem de estilo para apresentação visual do conteúdo.
+- **Styled Components (opcional)**: Biblioteca para criação de componentes React com estilos personalizados e reusáveis.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚧 Pré-requisitos
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Node.js e npm (ou yarn)**: Certifique-se de ter o Node.js e o gerenciador de pacotes npm (ou yarn) instalados em seu sistema.
 
-### `npm test`
+## 📥 Instalação
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone o repositório: `git clone <url_do_repositorio>`
+2. Acesse a pasta do projeto: `cd calculadora-react`
+3. Instale as dependências: `npm install`
 
-### `npm run build`
+## 💻 Execução
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Inicie o servidor de desenvolvimento: `npm start`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- A aplicação será aberta em seu navegador padrão, geralmente em <http://localhost:3000>.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📌 Funcionalidades
 
-### `npm run eject`
+- **Limpar (C)**: Limpa o visor e reinicia a calculadora.
+- **Modo Escuro/Claro**: Alterna entre os temas claro e escuro.
+- **Porcentagem (%)**: Calcula a porcentagem de um valor armazenado.
+- **Operações Aritméticas**:
+  - `+`, `-`, `x`, `÷`: Realizam as respectivas operações.
+  - `=`: Avalia a operação pendente.
+- **Entrada de Números**:
+  - Botões numéricos (0-9): Adicionam dígitos ao visor.
+  - `.`: Adiciona um ponto decimal ao visor.
+  - `+/-`: Inverte o sinal do número no visor.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🔧 Estrutura do Código
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Componentes**: A aplicação é dividida em componentes funcionais, como `Button` e `Input`, facilitando a organização e reutilização do código.
+- **Estado**: Variáveis de estado gerenciam o valor atual no visor, o primeiro número da operação, a operação em curso e o tema atual.
+- **Lógica**: As funções de manipulação de eventos (como `handleClick`, `handleClear`, etc.) implementam a lógica da calculadora, atualizando o estado conforme necessário.
